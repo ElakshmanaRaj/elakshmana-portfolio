@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+*{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: roboto flex;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #181C14;
+}
+
+
+section{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    position: sticky !important;
+    left: 0;
+    top: 0;
+    z-index: 100;
+
+}
+.navbar-brand{
+    font-weight: 700;
+    margin-left: 20px;
+   
+}
+.navbar-nav{
+    margin-right: 40px;
+}
+li{
+    padding: 5px;
+}
+
+.nav-item{
+    padding: 7px;
+}
+.nav-link{
+    color: white;
+}
+
+
+.nav-link:hover{
+    border-bottom: 1px solid white;
+    transition: .1s ease-out;
+}
+
+    
+span{
+    font-weight: 800;
+    color: aqua;
+}
+h1{
+    font-weight: 700;
+    color: white;
+}
+
+
+.home img{
+    width: 300px;
+    height: 300px;
+     
+}
+
+.home .btn{
+  background-color: #FCFCF9;
+  padding: 10px;
+  border-radius: 15px;
+  width: 150px;
+  border: none;
+}
+
+.home .btn a{
+  text-decoration: none;
+  color: rgb(13, 11, 11);
+  font-weight: 600;
+
+}
+
+.home .butn{
+    background-color: #59b2f4;
+    margin-left: 15px;
+    width: 135px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.home .butn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+    
+}
+
+
+
+#about p{
+    text-align: justify;
+}
+
+#skills p{
+    text-align: justify;
+
+}
+
+#skills i{
+  color: #59b2f4;
+}
+
+
+
+#projects img{
+  border-radius: 10px;
+
+}
+
+#projects i{
+  font-size: 25px;
+  background-color: transparent;
+  color: #59b2f4;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.card {
+  width: 20rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+
+#projects i:hover{
+  color: #00ffc8;
+}
+
+
+.texts{
+  color:#FF8660;
+}
+
+svg{
+  width: 28px;
+  height: 28px;
+  color: white;
+}
+
+
+
+@media (max-width: 767px) {
+
+  .col-md-4 img {
+    margin: 40px auto;
+  }
+}
+
+
+/* Media queries for skills */
+
+@media (max-width: 992px) { /* Tablets and below */
+  .skill-item {
+    padding: 1.2rem;
+  }
+
+  .skill-item h5 {
+    font-size: 1.2rem;
+  }
+
+  .skill-item p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) { /* Small tablets and large phones */
+  .skill-item {
+    padding: 1rem;
+  }
+
+  .skill-item .icon {
+    font-size: 1.8rem;
+  }
+
+  .skill-item h5 {
+    font-size: 1rem;
+  }
+
+  .skill-item p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 576px) { /* Small phones */
+  .skill-item {
+    padding: 0.8rem;
+  }
+
+  .skill-item .icon {
+    font-size: 1.6rem;
+  }
+
+  .skill-item h5 {
+    font-size: 0.9rem;
+  }
+
+  .skill-item p {
+    font-size: 0.8rem;
+  }
+}
+
+  
+/* Base styles - Mobile (default) */
+.row .col-md-6 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Tablet (768px and up) */
+@media (min-width: 768px) {
+  .row .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* Desktop (1000px and up) */
+@media (min-width: 1000px) {
+  .row .col-lg-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
+
+/* Larger Desktop (2000px and up) */
+@media (min-width: 2000px) {
+  .row .col-lg-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
