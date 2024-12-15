@@ -48,6 +48,9 @@ li{
     color: white;
 }
 
+.active{
+  border-bottom: 1px solid white;
+}
 
 .nav-link:hover{
     border-bottom: 1px solid white;
