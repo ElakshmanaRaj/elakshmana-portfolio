@@ -57,14 +57,37 @@ li{
     transition: .1s ease-out;
 }
 
-    
-span{
-    font-weight: 800;
-    color: aqua;
+.text {
+  font-weight: 900;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #59b2f4;
+  overflow: hidden; 
+  white-space: nowrap; 
+  width: 0; 
+  display: inline-block; 
+  animation: typing 4s linear infinite;
 }
+
+@media screen and (max-width: 768px) {
+  .text {
+    font-size: 1.5rem; 
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 h1{
     font-weight: 700;
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
