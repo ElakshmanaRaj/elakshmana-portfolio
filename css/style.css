@@ -66,9 +66,9 @@ li{
   animation: typing 4s linear infinite;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .text {
-    font-size: 1.5rem !important; 
+    font-size:26px !important; 
   }
 }
 
@@ -79,6 +79,14 @@ li{
   to {
     width: 100%;
   }
+}
+
+
+@media (max-width: 1024px) and (min-width:768px) {
+  section{
+    min-height: 60vh;
+  }
+  
 }
 
 h1{
