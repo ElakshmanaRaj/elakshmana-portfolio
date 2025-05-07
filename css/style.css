@@ -9,16 +9,14 @@
     padding: 0;
     
 }
+
 body{
     background-color: #181C14;
 }
 
 
-section{
-    display: flex;
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
+#home, #about, #skills, #projects, #contact{
+  margin-top: 9rem;
 }
 
 nav{
@@ -29,14 +27,17 @@ nav{
     z-index: 100;
 
 }
+
 .navbar-brand{
     font-weight: 700;
     margin-left: 20px;
    
 }
+
 .navbar-nav{
     margin-right: 40px;
 }
+
 li{
     padding: 5px;
 }
@@ -63,12 +64,16 @@ li{
   white-space: nowrap; 
   width: 0; 
   display: inline-block; 
-  animation: typing 4s linear infinite;
+  animation: typing 3s linear infinite;
 }
 
 @media screen and (max-width: 600px) {
   .text {
     font-size:26px !important; 
+  }
+  
+  #home{
+    margin-top: 4rem;
   }
 }
 
@@ -81,13 +86,6 @@ li{
   }
 }
 
-
-@media (max-width: 1024px) and (min-width:768px) {
-  section{
-    min-height: 60vh;
-  }
-  
-}
 
 h1{
     font-weight: 700;
@@ -125,6 +123,7 @@ h1{
     padding: 10px;
 
 }
+
 .home .butn a{
     text-decoration: none;
     color: #ffffff;
@@ -148,11 +147,32 @@ h1{
   color: #59b2f4;
 }
 
+.skill-item{
+  height: 310px;
+}
+
+@media  (max-width: 1024px) and (min-width: 991px) {
+  .skill-item{
+    height: 380px;
+  }
+}
+
+@media  (max-width: 992px) {
+  .skill-item{
+    height: auto;
+  }
+}
 
 
 #projects img{
   border-radius: 10px;
 
+}
+
+@media (max-width: 1024px) and (min-width: 991px) {
+  #projects .row{
+    gap: 5rem !important;
+  }
 }
 
 #projects i{
@@ -178,7 +198,6 @@ h1{
   transform: scale(1.05);
   cursor: pointer;
 }
-
 
 
 #projects i:hover{
@@ -259,37 +278,7 @@ svg{
 }
 
   
-/* Base styles - Mobile (default) */
-.row .col-md-6 {
-  flex: 0 0 100%;
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-}
 
-/* Tablet (768px and up) */
-@media (min-width: 768px) {
-  .row .col-md-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-}
-
-/* Desktop (1000px and up) */
-@media (min-width: 1000px) {
-  .row .col-lg-4 {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-  }
-}
-
-/* Larger Desktop (2000px and up) */
-@media (min-width: 2000px) {
-  .row .col-lg-4 {
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
-}
 
 
 
