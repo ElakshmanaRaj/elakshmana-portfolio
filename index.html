@@ -41,21 +41,24 @@
 
       <section id="home" class="home">
         <div class="container">
-          <div class="row">
+          <div class="row mx-auto">
             <div class="col-md-8 order-1">
-              <h1>Hi, I am Elakshmanaraj </h1>
-             <span class="text"> Fronend Developer </span> <br>
-            <p class="content" style="color: white; line-height: 1.8;"> 
+              <h1>Hello, I'm Elakshmanaraj </h1>
+             <span class="text"> Frontend Developer </span> <br>
+            <p class="content mt-2" style="color: white; line-height: 1.8;"> 
                 Proficient in front-end development, including HTML, CSS, Bootstrap, JavaScript, Bootstrap and React.JS  to bring designs to life. 
                 With a keen eye for detail and a deep understanding of user-centered design principles, 
                 I create innovative solutions that enhance both usability and engagement across web and digital platforms.
             </p>
-            <button type="button" class="btn btn-primary "> <a href="#contact">Get In Touch </a></button>
+            <div class="d-flex gap-2 mt-2">
+              <button type="button" class="btn"> <a>Download CV </a></button>
+              <button type="button" class="btn"> <a href="#contact">Get In Touch </a></button>
+            </div>
             
             
 
             </div>
-            <div class="col-md-4 order-sm-2">
+            <div class="col-md-4 text-center order-sm-2">
               <img src="assets/my pic.png" class="img-fluid mx-auto">
 
             </div>
@@ -68,7 +71,7 @@
 
       <section id="about" class="about">
         <div class="container">
-        <h3 class= "text-center h1 texts" style="font-weight: 900";>About</h3>
+        <h3 class= "text-center h1 texts" style="font-weight: 800";>About</h3>
           <div class="row">
             <div class="col-md-4">
               <img src="assets/my pic.png" class="img-fluid mx-auto">
@@ -87,7 +90,7 @@
       
       <section id="skills">
         <div class="container">
-        <h3 class= "text-center h1 texts" style="font-weight: 900";>Skills</h3>
+        <h3 class= "text-center h1 texts" style="font-weight: 800";>Skills</h3>
         <div class="row g-5 mt-5 text-center mx-auto">
           <div class="col-lg-4 col-md-6 my-4">
             <div class="skill-item bg-dark p-4 rounded">
@@ -138,45 +141,46 @@
 
       </section>
 
-      <section id="projects">
+      <section id="projects" class="projects">
         <div class="container">
-        <h3 class= "text-center h1 texts" style="font-weight: 900";>Projects</h3>
+        <h3 class= "text-center h1 texts" style="font-weight: 800";>Projects</h3>
         <div class="row g-5 mt-5 mx-auto">
-          <div class="col-lg-4 col-md-6 my-4"> 
-            <div class="card" style="width: 20rem;">
-              <img src="assets/swiggy thumbnail.png" class="card-img-top" alt="">
-              <div class="d-flex justify-content-between bg-dark border border-2 align-items-center p-2">
-                <h5 class="card-title fs-6 fw-bold text-light mt-2 mx-3 my-2">Swiggy Web Designs</h5>
-                <a href="https://www.figma.com/proto/nnChaEWdqxri7SylkK71Bo/Swiggy-Web-Design?node-id=430-2121&node-type=frame&t=L2"
-                target="_blank"><i class='bx bx-right-top-arrow-circle'></i></a>
+
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="project-card">
+              <img src="assets/moviespot-react-project.png" class="img-fluid rounded mb-2" alt="moviespot">
+              <h5 class="mt-3">MovieSpot Movie Web App</h5>
+              <p class="mt-4 mb-2">Built a responsive movie search web app with React JS, featuring real-time search and dynamic UI updates. </p>
+              <div class="d-flex gap-3 justify-content-center flex-wrap mt-4">
+                <a href="https://movie-rejs-app.netlify.app/" target="_blank" class="btn btn-gradient">Live preview</a>
+                <a href="https://github.com/ElakshmanaRaj/react-movie-app"  target="_blank" class="btn btn-outline">Check GitHub</a>
               </div>
             </div>
-        </div>
+          </div> 
 
-          <div class="col-lg-4 col-md-6 my-4"> 
-            <div class="card" style="width: 20rem;">
-              <img src="assets/irctc cover.png" class="card-img-top" alt="">
-              <div class="d-flex justify-content-between bg-dark border border-2 align-items-center p-2">
-                <h5 class="card-title fs-6 fw-bold text-light mt-2 mx-3 my-2">IRCTC App ReDesigns</h5>
-                <a href="https://www.figma.com/proto/neqvrswoPP2cWXLQeDlNyP/IRCTC-App-Re-Designs?node-id=4-16&node-type=canvas&t=lAQEmtru21kMSGfn-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=472%3A77" 
-                target="_blank">
-                  <i class='bx bx-right-top-arrow-circle'></i></a>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="project-card">
+              <img src="assets/irctc cover.png" class="img-fluid rounded mb-2" alt="irctc">
+              <h5 class="mt-3">IRCTC App Re-Designs</h5>
+              <p class="mt-4 mb-2">Redesigned the IRCTC app using Figma to enhance the UI and improve user experience. </p>
+              <div class="d-flex gap-3 justify-content-center flex-wrap mt-4">
+                <a href="https://www.figma.com/proto/neqvrswoPP2cWXLQeDlNyP/IRCTC-App-Re-Designs?node-id=4-16&starting-point-node-id=472%3A77&t=pZkeiaXi7LuwjZd3-1" target="_blank" class="btn btn-gradient">Live preview</a>
+                <a href="https://www.behance.net/gallery/211222993/IRCTC-Rail-App-Redesigns" target="_blank" class="btn btn-outline">Check Behance</a>
               </div>
             </div>
-        
-        </div>
-        <div class="col-lg-4 col-md-6 my-4"> 
-          <div class="card" style="width: 20rem;">
-            <img src="assets/flipkart thumbnail.png" class="card-img-top" alt="">
-            <div class="d-flex justify-content-between bg-dark border border-2 align-items-center p-2">
-              <h5 class="card-title fs-6 fw-bold text-light mt-2 mx-3 my-2">Flipkart App Designs</h5>
-              <a href="https://www.figma.com/proto/qECrzP9EhXsYtPJx3hm9xd/Flipkart-Mobile-Design?node-id=75-699&node-type=canvas&t=m3L6Aqn7fdD2Bq55-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=75%3A460" 
-              target="_blank"><i class='bx bx-right-top-arrow-circle'></i></a>
-            </div>
-          </div>
-      
-      </div>
+          </div>  
 
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="project-card">
+              <img src="assets/flipkart thumbnail.png" class="img-fluid rounded mb-2" alt="flipkart">
+              <h5 class="mt-3">Flipkart App Designs</h5>
+              <p class="mt-4 mb-2">Revamped the Flipkart app in Figma, focusing on a modern UI and smoother user interactions. </p>
+              <div class="d-flex gap-3 justify-content-center flex-wrap mt-4">
+                <a href="https://www.figma.com/proto/qECrzP9EhXsYtPJx3hm9xd/Flipkart-Mobile-Design?node-id=75-699&starting-point-node-id=75%3A460&t=vD3NXf1rfkv9ozMY-1" target="_blank" class="btn btn-gradient">Live preview</a>
+                <a href="https://www.behance.net/gallery/211985915/Flipkart-App-Designs" target="_blank" class="btn btn-outline">Check Behance</a>
+              </div>
+            </div>
+          </div>   
         </div>
         </div>
 
@@ -185,7 +189,7 @@
 
       <section id="contact">
         <div class="container">
-        <h3 class= "text-center h1 texts" style="font-weight: 900";>Contact</h3>
+        <h3 class= "text-center h1 texts" style="font-weight: 800";>Contact</h3>
         <div class="row mx-auto">
         <p class= "text-center text-light mx-3 my-3" style="line-height: 1.6;">
           Eager to bring my skills and join forces with the company. I'm ready to collaborate. I’m here to help transform concepts into impactful experiences. 
