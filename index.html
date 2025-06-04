@@ -7,9 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
   </head>
   <body>
     
+
+    <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
           <a class="navbar-brand" href="#">Elakshmana Raj</a>
@@ -37,8 +40,10 @@
         </div>
         </div>
       </nav>
+      <!-- Navbar End -->
 
 
+      <!-- Home Section Start -->
       <section id="home" class="home">
         <div class="container">
           <div class="row mx-auto">
@@ -51,7 +56,7 @@
                 I create innovative solutions that enhance both usability and engagement across web and digital platforms.
             </p>
             <div class="d-flex gap-2 mt-2">
-              <button type="button" class="btn"> <a>Download CV </a></button>
+              <button type="button" class="btn"> <a href="assets/Elakshmanaraj-resume.pdf" download target="_blank">Download CV </a></button>
               <button type="button" class="btn"> <a href="#contact">Get In Touch </a></button>
             </div>
             
@@ -66,9 +71,9 @@
           </div>
         </div>  
       </section>
+      <!-- Home Section End -->
 
-
-
+      <!-- About Section Start -->
       <section id="about" class="about">
         <div class="container">
         <h3 class= "text-center h1 texts" style="font-weight: 800";>About</h3>
@@ -87,60 +92,47 @@
         </div>
 
       </section>
+      <!-- About Section End -->
       
+
+      <!-- Skill Section Start -->
       <section id="skills">
         <div class="container">
         <h3 class= "text-center h1 texts" style="font-weight: 800";>Skills</h3>
-        <div class="row g-5 mt-5 text-center mx-auto">
-          <div class="col-lg-4 col-md-6 my-4">
-            <div class="skill-item bg-dark p-4 rounded">
-              <div class="icon my-3 fs-2">
-                <i class='bx bx-code-alt'></i>
-                <h5 class="fs-4 text-light fw-bold">Front End Developement</h5>
-                <p class="text-light fs-6">Building responsive and user-friendly web interfaces. 
-                  Proficient in HTML, CSS, JavaScript, Bootstrap and React JS with a strong focus on creating seamless, 
-                  visually appealing designs that enhance user engagement and experience. </p>
-                 
-              </div>
+        <div class="row g-5 mt-3 mx-auto">
+          <div class="icons d-flex flex-wrap gap-5 align-items-center justify-content-center">
+            <div class="icon">
+              <img src="assets/html.png" class="img-fluid" alt="html">
+            </div>
+            <div class="icon">
+              <img src="assets/css.png" class="img-fluid" alt="css">
+            </div>
+            <div class="icon">
+              <img src="assets/js.png" class="img-fluid js" alt="js">
+            </div>
+            <div class="icon">
+              <img src="assets/react.png" class="img-fluid" alt="react">
+            </div>
+            <div class="icon">
+              <img src="assets/bootstrap.png" class="img-fluid" alt="bootstrap">
+            </div>
+            <div class="icon">
+              <img src="assets/tailwind.png" class="img-fluid" alt="tailwind">
+            </div>
+            <div class="icon">
+              <img src="assets/figma.png" class="img-fluid" alt="figma">
+            </div>
+            <div class="icon">
+              <img src="assets/adobe-xd.png" class="img-fluid" alt="adobe-xd">
             </div>
           </div>
-
-
-          <div class="col-lg-4 col-md-6 my-4">
-            <div class="skill-item bg-dark p-4 rounded">
-              <div class="icon my-3 fs-2">
-                <i class='bx bx-edit'></i>
-                <h5 class="fs-4 text-light fw-bold">UI/UX Design</h5>
-                <p class="text-light fs-6"> Proficient UI Designer with expertise in Figma and Adobe XD for crafting intuitive, visually appealing interfaces. 
-                  Capable of translating engaging designs while maintaining consistency with brand guidelines.</p>
-                 
-              </div>
-            </div>
-
-          </div>
-
-          
-          <div class="col-lg-4 col-md-6 my-4">
-            <div class="skill-item bg-dark p-4 rounded">
-              <div class="icon my-3 fs-2">
-                <i class='bx bxs-paint'></i>
-                <h5 class="fs-4 text-light fw-bold">Photoshop</h5>
-                <p class="text-light fs-6"> Experienced in using Photoshop to enhance, manipulate, and refine images. 
-                  Skilled in tasks like retouching, color correction, background removal, and 
-                  image composition to produce visually appealing and polished results. </p>
-                 
-              </div>
-            </div>
-
-          </div>
-
         </div>
-       
-
         </div>
 
       </section>
+      <!-- Skill Section End -->
 
+      <!-- Project Section Start -->
       <section id="projects" class="projects">
         <div class="container">
         <h3 class= "text-center h1 texts" style="font-weight: 800";>Projects</h3>
@@ -154,6 +146,18 @@
               <div class="d-flex gap-3 justify-content-center flex-wrap mt-4">
                 <a href="https://movie-rejs-app.netlify.app/" target="_blank" class="btn btn-gradient">Live preview</a>
                 <a href="https://github.com/ElakshmanaRaj/react-movie-app"  target="_blank" class="btn btn-outline">Check GitHub</a>
+              </div>
+            </div>
+          </div> 
+
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="project-card">
+              <img src="assets/img-explorer.png"  class="img-fluid rounded mb-2" alt="moviespot">
+              <h5 class="mt-3">Image Explorer</h5>
+              <p class="mt-4 mb-2">Developed an image explorer app with live search and seamless UI updates using Unsplash API. </p>
+              <div class="d-flex gap-3 justify-content-center flex-wrap mt-4">
+                <a href="https://search-image-js.netlify.app/" target="_blank" class="btn btn-gradient">Live preview</a>
+                <a href="https://github.com/ElakshmanaRaj/image-search-site"  target="_blank" class="btn btn-outline">Check GitHub</a>
               </div>
             </div>
           </div> 
@@ -185,8 +189,10 @@
         </div>
 
       </section>
+      <!-- Project Section End -->
       
 
+      <!-- Contact Section Start -->
       <section id="contact">
         <div class="container">
         <h3 class= "text-center h1 texts" style="font-weight: 800";>Contact</h3>
@@ -227,10 +233,10 @@
         
 
       </section>
+      <!-- Contact Section End -->
 
-
-
-      <footer>
+      <!-- Footer Section Start -->
+    <footer>
         <div class="foot-contain text-secondary text-center">
             <p>
                 © Developed by Elakshmanaraj
@@ -238,6 +244,7 @@
 
         </div>
     </footer> 
+    <!-- Footer Section End -->
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" >

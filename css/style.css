@@ -18,6 +18,10 @@ a{
   text-decoration: none !important;
 }
 
+p, h5{
+  margin: 0 !important;
+}
+
 
 #home, #about, #skills, #projects, #contact{
   margin-top: 9rem;
@@ -131,32 +135,21 @@ h1{
     text-align: justify;
 }
 
-#skills p{
-    text-align: justify;
 
+.icon {
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease;
 }
 
-#skills i{
-  color: #59b2f4;
+.icon img{
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-.skill-item{
-  height: 310px;
+.icon:hover img{
+  transform: scale(1.04);
 }
-
-@media  (max-width: 1024px) and (min-width: 991px) {
-  .skill-item{
-    height: 380px;
-  }
-}
-
-@media  (max-width: 992px) {
-  .skill-item{
-    height: auto;
-  }
-}
-
-
 
 
 .row {
@@ -214,61 +207,6 @@ svg{
   font-size: 15px;
 }
 
-
-
-
-
-/* Media queries */
-
-@media (max-width: 992px) { 
-  .skill-item {
-    padding: 1.2rem;
-  }
-
-  .skill-item h5 {
-    font-size: 1.2rem;
-  }
-
-  .skill-item p {
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 768px) { 
-  .skill-item {
-    padding: 1rem;
-  }
-
-  .skill-item .icon {
-    font-size: 1.8rem;
-  }
-
-  .skill-item h5 {
-    font-size: 1rem;
-  }
-
-  .skill-item p {
-    font-size: 0.85rem;
-  }
-}
-
-@media (max-width: 576px) { 
-  .skill-item {
-    padding: 0.8rem;
-  }
-
-  .skill-item .icon {
-    font-size: 1.6rem;
-  }
-
-  .skill-item h5 {
-    font-size: 0.9rem;
-  }
-
-  .skill-item p {
-    font-size: 0.8rem;
-  }
-}
 
 @media (max-width: 399px) {
   .projects .btn-gradient{
