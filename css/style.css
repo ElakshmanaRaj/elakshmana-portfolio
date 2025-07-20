@@ -1,117 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
 
-*{
-    text-decoration: none;
-    list-style-type: none;
-    font-family: roboto flex;
-    scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
-    
+* {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: roboto flex;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
-body{
+body {
   background-color: #101724;
 }
 
-a{
+a {
   text-decoration: none !important;
 }
 
-p, h5{
+p,
+h5 {
   margin: 0 !important;
 }
 
-
-#home, #about, #skills, #projects, #contact{
+#home,
+#skills,
+#projects,
+#contact {
   margin-top: 9rem;
 }
 
-nav{
-    width: 100%;
-    position: sticky !important;
-    left: 0;
-    top: 0;
-    z-index: 999;
-
+nav {
+  width: 100%;
+  position: sticky !important;
+  left: 0;
+  top: 0;
+  z-index: 999;
 }
 
-.navbar-brand{
-    font-weight: 700;
-    margin-left: 20px;
-   
+.navbar-brand {
+  font-weight: 700;
+  margin-left: 20px;
 }
 
-.navbar-nav{
-    margin-right: 40px;
+.navbar-nav {
+  margin-right: 40px;
 }
 
-li{
-    padding: 5px;
+li {
+  padding: 5px;
 }
 
-.nav-item{
-    padding: 7px;
+.nav-item {
+  padding: 7px;
 }
-.nav-link{
-    color: white;
+.nav-link {
+  color: white;
 }
 
-
-.nav-link:hover{
-    border-bottom: 1px solid white;
-    transition: .1s ease-out;
+.nav-link:hover {
+  border-bottom: 1px solid white;
+  transition: 0.1s ease-out;
 }
 
 .text {
   font-weight: 600;
   font-size: 28px;
   color: #fff;
-  
 }
 
-.home .content{
+.home .content {
   font-size: 14px;
 }
 
 @media screen and (max-width: 600px) {
   .text {
-    font-size:26px !important; 
+    font-size: 26px !important;
   }
-  
-  #home{
+
+  #home {
     margin-top: 4rem;
   }
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+
+button{
+  cursor: pointer;
 }
 
 
-h1{
+h1 {
   font-weight: 600;
-  background: linear-gradient(90deg, #a66cff, #43e0ff); 
+  background: linear-gradient(90deg, #a66cff, #43e0ff);
   background-clip: text;
   color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
 
-
-.home img{
-    width: 300px;
-    height: 300px;
-     
+.home img {
+  width: 300px;
+  height: 300px;
 }
 
-.home .btn{
+.home .btn {
   background: linear-gradient(90deg, #a259ff, #3ecfff);
   padding: 10px;
   border-radius: 30px;
@@ -120,21 +111,29 @@ h1{
   transition: transform 0.3s ease;
 }
 
-.home .btn a{
+.home .btn a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-weight: 600;
-
 }
 
-.home .btn:hover{
+.home .btn:hover {
   transform: scale(1.02);
 }
 
-#about p{
-    text-align: justify;
+.heading{
+  color: #43e0ff;
+  font-weight: 600;
 }
 
+.left-content, .right-content{
+  border-radius: 6px;
+  padding: 10px;
+  border-right: 1px solid #59b2f4;
+  border-left: 1px solid #a259ff;
+  border-top: 1px solid #3ecfff;
+  border-bottom: 1px solid #a66cff;
+}
 
 .icon {
   width: 80px;
@@ -142,15 +141,14 @@ h1{
   transition: transform 0.3s ease;
 }
 
-.icon img{
+.icon img {
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
-.icon:hover img{
+.icon:hover img {
   transform: scale(1.04);
 }
-
 
 .row {
   display: flex;
@@ -158,20 +156,17 @@ h1{
   justify-content: center;
 }
 
-
-.texts{
-  color:#a66cff;
+.texts {
+  color: #a66cff;
 }
 
-svg{
+svg {
   width: 28px;
   height: 28px;
   color: white;
 }
 
-
-
-.projects .project-card{
+.projects .project-card {
   background-color: #0f1117;
   border-radius: 15px;
   padding: 20px;
@@ -188,7 +183,7 @@ svg{
   transform: scale(1.03);
 }
 
-.projects .btn-gradient{
+.projects .btn-gradient {
   background: linear-gradient(135deg, #a259ff, #43e0ff);
   border: none;
   border-radius: 25px;
@@ -196,67 +191,23 @@ svg{
   color: #fff;
 }
 
-.projects .btn-outline{
+
+
+.projects .btn-outline {
   border: 1px solid #f5f5f5;
   border-radius: 25px;
   padding: 8px 15px;
   color: white;
 }
 
-.projects p{
+.projects p {
   font-size: 15px;
 }
 
-
 @media (max-width: 399px) {
-  .projects .btn-gradient{
+  .projects .btn-gradient {
     border-radius: 15px;
     font-size: 14px;
     padding: 10px !important;
   }
 }
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-
-
-
